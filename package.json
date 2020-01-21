@@ -1,0 +1,14 @@
+{
+  "name": "lumen-react-stove",
+  "version": "1.0.0",
+  "description": "lumen rest api with react CRA as frontend",
+  "main": "main.js",
+  "author": "juan",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start-react": "cd App & yarn start",
+    "start-lumen": "cd Backend & php -S 127.0.0.1:8000 -t public",
+    "serve": "concurrently \"yarn start-lumen\" \"yarn start-react\""
+  }
+}
